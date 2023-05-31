@@ -19,10 +19,10 @@ import BrandClient from "../../components/brand-client/BrandClient";
 import NextPageContent from "../../components/next/NextPageContent";
 import Footer from "../../components/footer/Footer";
 import {Helmet} from "react-helmet";
-import Mainvideo from '../../video/video.mp4'
+//import Mainvideo from '../../video/video.mp4'
 
 
-const heroContent = {
+/*const heroContent = {
     title: "We Are Digital Agency.",
     src: Mainvideo,
     video: {
@@ -31,7 +31,7 @@ const heroContent = {
     },
     subTitle: `We make digital products and services.`,
 
-}
+}*/
 
 function MainDemo(props) {
     return (
@@ -40,7 +40,7 @@ function MainDemo(props) {
                 <title>DTEC - Anasayfa </title>
             </Helmet>
 
-            <HeaderFull heroContent={heroContent}  overlay={6}/>
+            //<HeaderFull heroContent={heroContent}  overlay={6}/>
 
             {/*Start Hero Section*/}
             <Container className="section-margin dsn-right-container">
