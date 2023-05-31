@@ -19,12 +19,12 @@ import BrandClient from "../../components/brand-client/BrandClient";
 import NextPageContent from "../../components/next/NextPageContent";
 import Footer from "../../components/footer/Footer";
 import {Helmet} from "react-helmet";
-import Mainvideo from '../../video/video.mp4'
+//import Mainvideo from '../../video/video.mp4'
 
 
 const heroContent = {
     title: "We Are Digital Agency.",
-    src: Mainvideo,
+    //src: Mainvideo,
     video: {
         poster: '/assets/img/video-bg.jpg',
         loop: true,
